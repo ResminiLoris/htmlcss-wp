@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Layout</title>
+    <link rel="icon" href="./img/icon.png">
+    <title>Neori</title>
 </head>
 <body>
     <div class="container">
-        <!-- rosa -->
+        <!-- header -->
             <div class="pink">
                 <img id="logo" src="./img/logo.png" alt="logo">
                 <nav>
-                    <ul class="navigation">
+                    <ul class="navigation uppercase">
                         <li>features</li>
                         <li>editorials</li>
                         <li>environment</li>
@@ -23,21 +24,43 @@
                     </ul>
                 </nav>
             </div>
-        <!-- giallo -->
-        <div class="yellow"></div>
-        <!-- contenitore-blu -->
-        <div class="blue clearfix::after" id="blue-wrapper">
+        <!-- spotlight -->
+        <div class="spotlight">
+           <div class="sub">
+                <h2>Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates error saepe <br> eligendi ex sed vero eos ducimus eius fuga sit...</p>
+           </div>
+        </div>
+        <!-- columns-container -->
+        <div class="columns-container clearfix::after">
             <!-- sezione-top -->
-            <div class="top-section"></div>
+            <div class="top-section">
+                <h1>Leadership</h1>
+                <div class="text-grey"> Lorem ipsum dolor sit amet.</div>
+            </div>
             <!-- colonna-sx -->
-            <div class="colonna" id="left"></div>
+            <div class="colonna" id="left">
+                <div class="immagini-colonne" id="image-left"></div>
+                <h4>Lorem</h4>
+                <span class="text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid voluptas eum magnam nulla saepe libero fuga temporibus, ex error aspernatur corrupti et nam sit neque deserunt nihil voluptatum officiis accusantium debitis eaque quia illum obcaecati totam? Delectus sunt rerum iste?</span>
+            </div>
             <!-- colonna-centro -->
-            <div class="colonna" id="center"></div>
+            <div class="colonna" id="center">
+                <div class="immagini-colonne" id="image-center"></div>
+                <h4>Lorem</h4>
+                <span class="text-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, beatae explicabo! Sint enim dolores, obcaecati assumenda rem nam neque necessitatibus facilis voluptates? Nam sit consequuntur aspernatur nulla libero? Ratione, cum!
+                Veritatis, cum necessitatibus. Fugit sed temporibus excepturi rem earum explicabo sunt, nobis repellat omnis tenetur praesentium mollitia maiores. Ut provident sunt eius voluptas consectetur architecto quasi quis, et nobis beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim deserunt voluptatem in accusamus suscipit quae quaerat cupiditate quia ipsa quasi, obcaecati consequatur assumenda magnam eum, optio harum? Ipsam, voluptatibus a.</span>
+            </div>
             <!-- colonna-dx -->
-            <div class="colonna" id="right"></div>
+            <div class="colonna" id="right">
+                <div class="immagini-colonne" id="image-right"></div>
+                <h4>Lorem</h4>
+                <span class="text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid voluptas eum magnam nulla saepe libero fuga temporibus, ex error aspernatur corrupti et nam sit neque deserunt nihil voluptatum officiis accusantium debitis eaque quia illum obcaecati totam? Delectus sunt rerum iste?</span>
+            </div>
         </div>
         <!-- viola -->
-        <div class="purple"></div>
+        <div class="footer"> Designed with <span id="icon">&hearts;</span></div>
     </div>  
 </body>
 </html>
